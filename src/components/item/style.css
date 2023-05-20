@@ -9,6 +9,13 @@
   color: #fff;
 }
 
+.Item-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
 .Item-code {
   padding: 20px 10px 20px 20px;
 }
@@ -20,6 +27,26 @@
 
 .Item-actions {
   display: flex;
+  width: 100%;
   justify-content: flex-end;
-  padding: 20px 20px 20px 10px;
+  align-items: center;
+  padding: 20px 21px 21px 10px;
+}
+
+.Item-price {
+  margin-right: 24px;
+}
+
+.Item-quantity {
+  margin-right: 24px;
+  margin-left: 38px;
+}
+
+.Item-button {
+  width: 76px;
+  height: 21px;
+}
+
+button {
+  cursor: pointer;
 }
