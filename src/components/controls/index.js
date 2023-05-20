@@ -20,10 +20,11 @@ function Controls({cart, totalPrice, setActive}){
 }
 
 Controls.propTypes = {
-  cart: PropTypes.arrayOf(PropTypes.shape({
+    cart: PropTypes.arrayOf(PropTypes.shape({
     code: PropTypes.number
-  })).isRequired,
-  onAdd: PropTypes.func
+    })).isRequired,
+    setActive: PropTypes.func,
+    totalPrice: PropTypes.number,
 };
 
 Controls.defaultProps = {

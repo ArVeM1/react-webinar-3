@@ -38,7 +38,10 @@ function Basket({list, totalPrice, onDeleteItemToCart, setActive}){
 }
 
 Basket.propTypes = {
-  list: PropTypes.arrayOf(PropTypes.object),
+    list: PropTypes.arrayOf(PropTypes.object),
+    totalPrice: PropTypes.number,
+    onDeleteItemToCart: PropTypes.func,
+    setActive: PropTypes.func
 };
 
 Basket.defaultProps = {

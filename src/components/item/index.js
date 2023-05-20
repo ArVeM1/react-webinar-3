@@ -29,14 +29,9 @@ Item.propTypes = {
     selected: PropTypes.bool,
     count: PropTypes.number,
     quantity: PropTypes.number,
+    price: PropTypes.number,
   }).isRequired,
-  // onDelete: PropTypes.func,
-  // onSelect: PropTypes.func
 };
 
-Item.defaultProps = {
-  // onDelete: () => {},
-  // onSelect: () => {},
-}
 
 export default React.memo(Item);

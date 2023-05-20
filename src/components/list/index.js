@@ -22,6 +22,7 @@ List.propTypes = {
     code: PropTypes.number
   })).isRequired,
   buttonText: PropTypes.string,
+  action: PropTypes.func
 };
 
 export default React.memo(List);
