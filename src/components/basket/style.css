@@ -13,7 +13,7 @@
 
 .Basket-content {
   position: relative;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 10px;
   width: 960px;
   background-color: #fff;
@@ -34,4 +34,8 @@
   font-size: 18px;
   margin-bottom: 89px;
   gap: 32px;
+}
+
+.Basket-head {
+  border-right: 10px;
 }

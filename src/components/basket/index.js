@@ -11,7 +11,7 @@ function Basket({list, totalPrice, onDeleteItemToCart, setActive}){
   return (
     <div className={cn("popup")}>
         <div className={cn("content")}>
-            <Head title="Корзина">
+            <Head title="Корзина" style={{borderRadius: 10}}>
                 <button className={cn("close")} onClick={() => setActive(false)}>Закрыть</button>
             </Head>
 
